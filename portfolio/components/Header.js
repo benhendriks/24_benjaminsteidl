@@ -1,7 +1,8 @@
 import Link from "next/link";
 import styled from "styled-components";
 import Nav from "./Nav";
-
+import Router from 'next/router';
+ 
 const Logo = styled.div`
   font-size: 4rem;
   margin-left: 2rem;
@@ -42,8 +43,8 @@ const Header = () => (
           </a>
         </Link>
       </Logo>
+      <Nav />
     </div>
-    <Nav />
   </StyledHeader>
 )
 
