@@ -19,12 +19,11 @@ body {
   padding: 0;
   margin: 0;
   font-size: 1.5rem;
-  line-height: 2;
   font-family: 'Raleway', sans-serif;
 }
 
 a {
-  font-size: 3rem;
+  font-size: 3.5rem;
   text-decoration: none;
   color: white;
 }
@@ -33,11 +32,54 @@ a:hover {
   color: #ddbd54;
 }
 
+button {
+  font-weight: bold;
+  font-size: 1.8rem;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  border: 3px solid #ddbd54;
+  background: transparent;
+  color: #fdfdfd;
+  transition: all 0.5s ease;
+}
+button:hover {
+  background: #ddbd54;
+  color: #000;
+}
+
+h2 {
+  font-weight: lighter;
+  font-size: 6rem;
+  margin: 1rem;
+}
+
+h3 {
+  color: #fdfdfd;
+  font-size: 4rem;
+  margin: 0;
+}
+
+h4 {
+  font-weight: bold;
+}
+
+span {
+  font-weight: bold;
+  color: #ddbd54;
+}
+
+p {
+  padding: 3rem 0rem;
+  color: #fdfdfd;
+  font-size: 2.5rem;
+  line-height: 150%;
+}
+
 .layout {
   width: 100%;
   background: black;
-  color: white;
-  min-height: 100vh;
+  color: #fdfdfd;
+  min-height: 80vh;
 }
 
 nav {
@@ -50,6 +92,7 @@ nav {
   position: sticky;
   top: 0;
   z-index: 10;
+  background-color: #000;
 }
 
 .nav-links {
@@ -79,4 +122,45 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 5rem 10rem;
+}
+
+.description {
+  flex: 1;
+  padding: 0rem 5rem;
+}
+
+.image {
+  flex: 1;
+  overflow: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.hide {
+  overflow: hidden;
+}
+
+.faq {
+  display: block;
+  padding: 5rem 10rem;
+}
+
+.faq-line {
+  background: #fdfdfd;
+  height: 0.2rem;
+  margin: 2rem 0rem;
+  width: 100%;
+}
+
+.question {
+  padding: 3rem 0rem;
+  cursor: pointer;
+}
+
+.answer {
+  padding: 2rem 0rem;
 }

@@ -1,34 +1,38 @@
 const AboutSection = () => {
   return (
-    <div className="cv">
-      <h2>All about me in my <span>CV</span></h2>
+    <div className="faq">
+      <h2>My <span>CV</span></h2>
       <div className="question">
-        <h4>About</h4>
+        <h3>About</h3>
         <div className="answer">
           <p>Lorem ipsum dolor sit amet.</p>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem, eos?</p>
         </div>
+        <div className="faq-line"></div>
       </div>
       <div className="question">
-        <h4>Experience</h4>
+        <h3>Experience</h3>
         <div className="answer">
           <p>Lorem ipsum dolor sit amet.</p>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem, eos?</p>
         </div>
+        <div className="faq-line"></div>
       </div>
       <div className="question">
-        <h4>Enjucation</h4>
+        <h3>Enjucation</h3>
         <div className="answer">
           <p>Lorem ipsum dolor sit amet.</p>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem, eos?</p>
         </div>
+        <div className="faq-line"></div>
       </div>
       <div className="question">
-        <h4>Skills</h4>
+        <h3>Skills</h3>
         <div className="answer">
           <p>Lorem ipsum dolor sit amet.</p>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem, eos?</p>
         </div>
+        <div className="faq-line"></div>
       </div>
     </div>
   );
