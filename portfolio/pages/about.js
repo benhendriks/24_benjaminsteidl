@@ -1,7 +1,8 @@
+import AboutSection from "../components/AboutSection";
 
 const About = props => (
   <div>
-    <p>About</p>
+    <AboutSection />
   </div>
 );
 

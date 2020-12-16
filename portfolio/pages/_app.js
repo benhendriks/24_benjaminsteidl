@@ -5,7 +5,6 @@ import style from '../styles/style.css';
 class MyApp extends App{ 
   render() {
     const { Component } = this.props;
-
     return (
       <Page>
         <Component />
