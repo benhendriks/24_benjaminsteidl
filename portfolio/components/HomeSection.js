@@ -27,8 +27,8 @@ const HomeSection = () => {
           variants={photoAnim}
           src="/profile.png" 
           layout="fixed" 
-          width={500} 
-          height={500} 
+          width={530} 
+          height={530} 
           alt="Benjamin Steidl" 
         />
       </div>

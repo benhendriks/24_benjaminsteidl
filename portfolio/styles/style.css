@@ -61,6 +61,7 @@ h3 {
 }
 
 h4 {
+  margin: 0;
   font-weight: bold;
 }
 
@@ -80,7 +81,6 @@ p {
   width: 100%;
   background: black;
   color: #fdfdfd;
-  min-height: 80vh;
 }
 
 nav {
@@ -110,6 +110,7 @@ nav {
   display: flex;
   align-items: center;
   position: fixed;
+  z-index: 10;
 }
 .social-links {
   padding: 20px;
@@ -122,7 +123,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 5rem 10rem;
+  padding: 0rem 10rem;
 }
 
 .description {
@@ -173,4 +174,19 @@ img {
   position: absolute;
   left: 0;
   z-index: 1;
+}
+
+.footer {
+  width: 100%;
+  bottom: 0;
+  position: sticky;
+  min-height: 3vh;
+  text-align: center;
+  background-color: #ddbd54;
+  color: #fdfdfd;
+  z-index: 9;
+}
+
+.footer-title {
+  padding: 1rem 0rem;
 }
