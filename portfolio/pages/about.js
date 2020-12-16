@@ -1,9 +1,16 @@
 import AboutSection from "../components/AboutSection";
+import { motion } from 'framer-motion';
+import { pageAnim } from '../animation';
 
 const About = props => (
-  <div>
+  <motion.div 
+    variants={pageAnim} 
+    initial="hidden" 
+    animate="show"
+    exit="exit" 
+  >
     <AboutSection />
-  </div>
+  </motion.div>
 );
 
 export default About;

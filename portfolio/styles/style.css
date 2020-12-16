@@ -36,11 +36,12 @@ button {
   font-weight: bold;
   font-size: 1.8rem;
   cursor: pointer;
-  padding: 1rem 2rem;
+  padding: 1.5rem 2rem;
   border: 3px solid #ddbd54;
+  border-radius: 1rem;
   background: transparent;
   color: #fdfdfd;
-  transition: all 0.5s ease;
+  transition: all 0.8s ease;
 }
 button:hover {
   background: #ddbd54;
@@ -49,7 +50,7 @@ button:hover {
 
 h2 {
   font-weight: lighter;
-  font-size: 6rem;
+  font-size: 6.3rem;
   margin: 1rem;
 }
 
@@ -127,11 +128,13 @@ nav {
 .description {
   flex: 1;
   padding: 0rem 5rem;
+  z-index: 2;
 }
 
 .image {
   flex: 1;
   overflow: hidden;
+  z-index: 2;
 }
 
 img {
@@ -163,4 +166,11 @@ img {
 
 .answer {
   padding: 2rem 0rem;
+}
+
+.wave {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  z-index: 1;
 }

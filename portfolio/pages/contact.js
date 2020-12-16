@@ -1,8 +1,15 @@
+import { motion } from 'framer-motion';
+import { pageAnim } from '../animation';
 
 const Contact = props => (
-  <div>
+  <motion.div 
+    variants={pageAnim} 
+    initial="hidden" 
+    animate="show"
+    exit="exit" 
+  >
     <p>Contact</p>
-  </div>
+  </motion.div>
 );
 
 export default Contact;
