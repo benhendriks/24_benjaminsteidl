@@ -7,7 +7,7 @@ const Home = props => (
     variants={pageAnim} 
     initial="hidden" 
     animate="show"
-    exit="exit" 
+    exit="exit"
   >
     <div className="layout">
     <HomeSection />
