@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import Wave from './Wave';
 import { titleAnim, fade, photoAnim } from '../animation';
+import Link from 'next/link';
 
 const HomeSection = () => {
   return ( 
@@ -19,7 +20,11 @@ const HomeSection = () => {
           <motion.p variants={fade}>
             Contact me for any Web Project ideas you have.
           </motion.p>
-          <motion.button variants={fade}>Contact Me</motion.button>
+          <Link href="/contact">
+            <a>
+              <motion.button variants={fade}>Contact Me</motion.button>
+            </a>
+          </Link>
         </motion.div>
       </div>
       <div className="image">
@@ -27,8 +32,8 @@ const HomeSection = () => {
           variants={photoAnim}
           src="/profile.png" 
           layout="fixed" 
-          width={530} 
-          height={530} 
+          width={600} 
+          height={600} 
           alt="Benjamin Steidl" 
         />
       </div>

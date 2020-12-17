@@ -8,7 +8,11 @@ const Contact = props => (
     animate="show"
     exit="exit" 
   >
-    <p>Contact</p>
+    <div className="contact">
+      <h2>Benjamin Steidl</h2>
+      <h2>info@benjaminsteidl.com</h2>
+      <h2>+41 767 342 899</h2>
+    </div>
   </motion.div>
 );
 

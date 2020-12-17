@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { pageAnim } from '../animation';
+import WorkSection from '../components/WorkSection';
 
 const Work = props => (
   <motion.div 
@@ -8,7 +9,7 @@ const Work = props => (
     animate="show"
     exit="exit" 
   >
-    <p>Work</p>
+    <WorkSection />
   </motion.div>
 );
 
